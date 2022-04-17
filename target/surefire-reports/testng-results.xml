@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19229" started-at="2022-04-03T10:40:31 IST" finished-at="2022-04-03T10:40:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19229" started-at="2022-04-03T10:40:31 IST" finished-at="2022-04-03T10:40:50 IST">
+      <class name="Master.E2E_Project.LoginPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Master.E2E_Project.LoginPage@5ab956d7]" name="initialize" is-config="true" duration-ms="10816" started-at="2022-04-03T10:40:31 IST" finished-at="2022-04-03T10:40:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basepage_navigation(java.lang.String,java.lang.String)[pri:0, instance:Master.E2E_Project.LoginPage@5ab956d7]" name="basepage_navigation" duration-ms="8223" started-at="2022-04-03T10:40:42 IST" data-provider="getdata" finished-at="2022-04-03T10:40:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Unkonwn_Avatar@sharklasers.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepage_navigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Master.E2E_Project.LoginPage@5ab956d7]" name="teardown" is-config="true" duration-ms="1" started-at="2022-04-03T10:40:50 IST" finished-at="2022-04-03T10:40:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Master.E2E_Project.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
